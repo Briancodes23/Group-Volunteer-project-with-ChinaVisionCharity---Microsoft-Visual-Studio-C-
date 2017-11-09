@@ -1,0 +1,125 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="StyleSheet.css" rel="stylesheet" />
+
+    <style type="text/css">
+        .auto-style2 {
+            width: 249px;
+            height: 87px;
+        }
+        .auto-style3 {
+            font-size: xx-large;
+        }
+        .auto-style4 {
+            width: 208px;
+            height: 95px;
+        }
+        .MsoNormal {
+            height: 99px;
+            width: 488px;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="pagecontainer">
+      <div class="header">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="" class="auto-style4" src="App_Data/MAC%20Shanxi%20(3).jpg" />&nbsp;&nbsp;
+          <img alt="" class="auto-style2" src="App_Data/MAC%20Shanxi%20(6).jpg" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <asp:SiteMapPath ID="SiteMapPath1" runat="server" Font-Names="Verdana" Font-Size="0.8em" PathSeparator=" : ">
+              <CurrentNodeStyle ForeColor="#333333" />
+              <NodeStyle Font-Bold="True" ForeColor="#7C6F57" />
+              <PathSeparatorStyle Font-Bold="True" ForeColor="#5D7B9D" />
+              <RootNodeStyle Font-Bold="True" ForeColor="#5D7B9D" />
+          </asp:SiteMapPath>
+        </div>
+      <div class ="bodycontainer">
+          <div class="menu">
+              <br />
+              <strong>Menu         
+              </strong>         
+              <br />
+              <asp:TreeView ID="TreeView1" runat="server" DataSourceID="SiteMapDataSource1">
+              </asp:TreeView>
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" />
+              </div>   
+          <div class="content">         
+            <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+                <p style="height: 79px; width: 239px">
+                    <strong>
+                    &nbsp;
+                    <br class="auto-style3" />
+                    <span class="auto-style3">ChinaVision</span></strong></p>
+                <p>
+                    &nbsp;</p>
+                <p class="MsoNormal">
+                    <span style="font-size:12.0pt">ChinaVision is a small charity founded about 15 years ago to support blind and disabled people in China. The organisation seeks to provide information and practical support for projects which enable blind and disabled people to speak for themselves to tell their stories,their challenges and their achievements.</span></p>
+                <p class="MsoNormal">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                </p>
+                <p class="MsoNormal">
+                    &nbsp;</p>
+            </asp:ContentPlaceHolder> 
+              <br />
+              <br />
+              <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+              <br />
+          </div>
+          <br />
+          <br />
+          <br />
+          <br />
+      </div>
+    </div>
+
+
+      <div class="footer">
+          <br />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button1" runat="server" Text="Contact Details" Width="97px" />
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <asp:Button ID="Button2" runat="server" Text="Useful Links" Width="99px" />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br /></div>
+
+
+  </form>
+
+
+      </body>
+</html>

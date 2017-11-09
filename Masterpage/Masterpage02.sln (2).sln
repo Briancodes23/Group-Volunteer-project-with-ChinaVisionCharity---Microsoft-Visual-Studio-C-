@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "Masterpage02", ".", "{D8FB777C-9A3E-4C1C-BEED-E2095C06B130}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/Masterpage02"
+		Debug.AspNetCompiler.PhysicalPath = "..\Masterpage02\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\Masterpage02\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/Masterpage02"
+		Release.AspNetCompiler.PhysicalPath = "..\Masterpage02\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\Masterpage02\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "49163"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D8FB777C-9A3E-4C1C-BEED-E2095C06B130}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FB777C-9A3E-4C1C-BEED-E2095C06B130}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,38 @@
+﻿.pagecontainer
+{width:683px; 
+ 
+ position:relative;
+    top: 0px;
+    left: 0px;
+    height: 604px;
+}
+.header
+{  
+    background:red;
+    text-align: left;
+    height: 129px;
+}
+.bodycontainer
+{
+  background: white;
+}
+.menu
+{float:left;
+  background: white;
+  width:193px;
+    height: 17px;
+}
+.content
+{float:left; 
+ background: white; 
+ width:457px;
+    height: 216px;
+}
+.footer
+{
+    width: 670px;
+    background: yellow;
+    text-align: center;
+    height: 47px;
+}
+

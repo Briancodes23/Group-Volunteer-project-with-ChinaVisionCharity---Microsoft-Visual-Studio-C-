@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="Home"  description="">
+		<siteMapNode url="AboutChinaVision.aspx" title="AboutChinaVision"  description="" />
+		<siteMapNode url="News.aspx" title="News"  description="" />
+		<siteMapNode url="Empowerment.aspx" title="Empowerment"  description="" />
+      <siteMapNode url="Gallery.aspx" title="Gallery"  description="" />
+      <siteMapNode url="forum.aspx" title="forum"  description="" />
+      <siteMapNode url="CV charity.aspx" title="CV charity"  description="" />
+      <siteMapNode url="Donate.aspx" title="Donate"  description="" />
+      
+	</siteMapNode>
+
+</siteMap>

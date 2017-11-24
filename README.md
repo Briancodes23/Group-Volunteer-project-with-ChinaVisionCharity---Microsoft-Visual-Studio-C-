@@ -1,6 +1,6 @@
 What does the project do?
 
-This project was intended to be a website website which benefits visually impaired users by improving the user interface features and effects.
+This project was intended to be a website which benefits visually impaired users by improving the user interface design, features and effects.
 
 
 Software & Installation?

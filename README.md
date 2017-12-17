@@ -6,4 +6,4 @@ This project was intended to be a website which benefits visually impaired users
 Software & Installation?
 Microsoft Visual Studio 2012 Express
 
-Note: This is not the final version of the complete development project.
+Note: This is not the final version of the complete development project as this project was for learning purposes.
